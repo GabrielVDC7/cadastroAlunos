@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário - JSON</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
     <form action="">
+        <h1 class="titulo">Cadastro de Alunos</h1> <br>
         <label for="nome">Nome:</label>
-        <input type="text" id="nome"> <br> <br>
+        <input type="text"  id="nome"> <br> <br>
         <label for="idade">Idade:</label>
-        <input type="text" id="idade"> <br> <br>
+        <input type="number"  min="0" step="1" id="idade"> <br> <br>
         <label for="curso">Curso:</label>
         <input type="text" id="curso"> <br> <br>
         <button type="button" onclick="addObjeto()">Enviar</button>
@@ -19,5 +22,10 @@
     <pre id="resultado"></pre>
 
     <script src="script.js"></script>
+    <footer class="wii-footer">
+        <div class="wii-wave"></div>
+        <div class="wii-footer-content">
+        </div>
+    </footer>
 </body>
 </html>
